@@ -31,4 +31,9 @@ public class LibraryController {
     {
         return "welcome to viewbooks page";
     }
+    @PostMapping("/search")
+    public String SearchPage()
+    {
+        return "welcome to search page";
+    }
 }
