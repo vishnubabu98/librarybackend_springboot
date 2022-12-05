@@ -20,4 +20,9 @@ public class LibraryController {
     {
         return "welcome to user registeration page";
     }
+    @PostMapping("/add")
+    public String AddPage()
+    {
+        return "welcome to book adding page";
+    }
 }
