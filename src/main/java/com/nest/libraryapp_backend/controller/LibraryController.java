@@ -36,4 +36,9 @@ public class LibraryController {
     {
         return "welcome to search page";
     }
+    @PostMapping("/delete")
+    public String DeletePage()
+    {
+        return "welcome to delete page";
+    }
 }
